@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // IMPORTANT: This matches your GitHub Repository name 'EECalculator'
-  base: '/EECalculator/', 
+  base: './',
   build: {
     outDir: 'dist',
     rollupOptions: {
